@@ -67,3 +67,7 @@ plt.xlabel('Time')
 plt.ylabel('Stock Price')
 plt.legend()
 plt.show()
+
+# Calculate the mean squared error
+mse = np.mean((predictions - actual_values)**2)
+print('Mean squared error:', mse)
